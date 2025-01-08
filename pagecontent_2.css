@@ -1,0 +1,53 @@
+/* Apply global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Garamond', serif, 'Sansita', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main header (CRM Repos) */
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Subheader styles (API and Environment) */
+.subheader h2 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    font-weight: normal;
+    color: #dcdcdc;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
